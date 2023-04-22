@@ -11,7 +11,7 @@ banCommand:
   aliases:
   - "ban"
   - "bans"
-  description: "Bans a player from visiting your Island"
+  description: "Bans a player from visiting your habitat"
   permission: ""
   syntax: "%prefix% &7/is ban <player>"
   enabled: true
@@ -19,7 +19,7 @@ banCommand:
 bankCommand:
   aliases:
   - "bank"
-  description: "Open your Island bank"
+  description: "Open your habitat bank"
   permission: ""
   syntax: ""
   enabled: true
@@ -27,7 +27,7 @@ bankCommand:
   bankGive:
     aliases:
     - "give"
-    description: "Give players money into their island bank"
+    description: "Give players money into their habitat bank"
     permission: "iridiumskyblock.bank.give"
     syntax: "%prefix% &7/is bank give <player> <type> <amount>"
     enabled: true
@@ -51,7 +51,7 @@ bankCommand:
 biomeCommand:
   aliases:
   - "biome"
-  description: "Change your island biome."
+  description: "Change your habitat biome."
   permission: ""
   syntax: "%prefix% &7/is biome <biome>"
   enabled: true
@@ -68,7 +68,7 @@ boostersCommand:
   aliases:
   - "booster"
   - "boosters"
-  description: "Open the Island Boosters Menu"
+  description: "Open the habitat Boosters Menu"
   permission: ""
   syntax: "%prefix% &7/is booster <name>"
   enabled: true
@@ -76,7 +76,7 @@ boostersCommand:
 borderCommand:
   aliases:
   - "border"
-  description: "Change the Island Border"
+  description: "Change the habitat Border"
   permission: ""
   syntax: "%prefix% &7/is border <color>"
   enabled: true
@@ -84,7 +84,7 @@ borderCommand:
 bypassCommand:
   aliases:
   - "bypass"
-  description: "Bypass Island restrictions"
+  description: "Bypass habitat restrictions"
   permission: "iridiumskyblock.bypass"
   syntax: ""
   enabled: true
@@ -92,7 +92,7 @@ bypassCommand:
 chatCommand:
   aliases:
   - "chat"
-  description: "Chat with online Island members"
+  description: "Chat with online habitat members"
   permission: ""
   syntax: "%prefix% &7/is chat <message>"
   enabled: true
@@ -108,7 +108,7 @@ clearDataCommand:
 createCommand:
   aliases:
   - "create"
-  description: "Create an Island"
+  description: "Create an habitat"
   permission: ""
   syntax: "%prefix% &7/is create <name> <schematic>"
   enabled: true
@@ -116,7 +116,7 @@ createCommand:
 deleteCommand:
   aliases:
   - "delete"
-  description: "Delete your Island"
+  description: "Delete your habitat"
   permission: ""
   syntax: "%prefix% &7/is delete <name>"
   enabled: true
@@ -125,7 +125,7 @@ deleteWarpCommand:
   aliases:
   - "delwarp"
   - "deletewarp"
-  description: "Deletes an Island warp"
+  description: "Deletes an habitat warp"
   permission: ""
   syntax: "%prefix% &7/is deletewarp <name>"
   enabled: true
@@ -141,7 +141,7 @@ demoteCommand:
 depositCommand:
   aliases:
   - "deposit"
-  description: "Deposit into your Island bank"
+  description: "Deposit into your habitat bank"
   permission: ""
   syntax: "%prefix% &7/is deposit <name> <amount>"
   enabled: true
@@ -149,7 +149,7 @@ depositCommand:
 editWarpCommand:
   aliases:
   - "editwarp"
-  description: "Edits an Island warp"
+  description: "Edits an habitat warp"
   permission: ""
   syntax: "%prefix% &7/is editwarp <name> <icon/description>"
   enabled: true
@@ -165,7 +165,7 @@ expelCommand:
 extraValueCommand:
   aliases:
   - "extravalue"
-  description: "Set extra values of island"
+  description: "Set extra values of habitat"
   permission: "iridiumskyblock.extravalue"
   syntax: "%prefix% &7/is extravalue <player/add/remove/set>"
   enabled: true
@@ -198,7 +198,7 @@ flyCommand:
   aliases:
   - "fly"
   - "flight"
-  description: "Toggle Island Flight"
+  description: "Toggle habitat Flight"
   permission: ""
   syntax: "%prefix% &7/is flight <enable/disable>"
   enabled: true
@@ -215,7 +215,7 @@ homeCommand:
   aliases:
   - "home"
   - "go"
-  description: "Teleport to your Island home"
+  description: "Teleport to your habitat home"
   permission: ""
   syntax: ""
   enabled: true
@@ -231,7 +231,7 @@ homeCommand:
 infoCommand:
   aliases:
   - "info"
-  description: "Show infos about this Island."
+  description: "Show infos about this habitat."
   permission: ""
   syntax: "%prefix% &7/is info <player>"
   enabled: true
@@ -240,7 +240,7 @@ inviteCommand:
   aliases:
   - "invite"
   - "invites"
-  description: "Invite a user to your Island"
+  description: "Invite a user to your habitat"
   permission: ""
   syntax: "%prefix% &7/is invite <player>"
   enabled: true
@@ -248,7 +248,7 @@ inviteCommand:
 joinCommand:
   aliases:
   - "join"
-  description: "Join an Island"
+  description: "Join an habitat"
   permission: ""
   syntax: "%prefix% &7/is join <player>"
   enabled: true
@@ -264,7 +264,7 @@ kickCommand:
 leaveCommand:
   aliases:
   - "leave"
-  description: "Leave your Island"
+  description: "Leave your habitat"
   permission: ""
   syntax: ""
   enabled: true
@@ -273,7 +273,7 @@ levelCommand:
   aliases:
   - "level"
   - "experience"
-  description: "Displays Island Level/Experience"
+  description: "Displays habitat Level/Experience"
   permission: ""
   syntax: ""
   enabled: true
@@ -281,7 +281,7 @@ levelCommand:
 logsCommand:
   aliases:
   - "logs"
-  description: "Open your Island Logs"
+  description: "Open your habitat Logs"
   permission: ""
   syntax: ""
   enabled: true
@@ -289,7 +289,7 @@ logsCommand:
 membersCommand:
   aliases:
   - "members"
-  description: "View your Island members"
+  description: "View your habitat members"
   permission: ""
   syntax: ""
   enabled: true
@@ -297,7 +297,7 @@ membersCommand:
 missionCommand:
   aliases:
   - "missions"
-  description: "View your Island missions"
+  description: "View your habitat missions"
   permission: ""
   syntax: "%prefix% &7/is mission <type>"
   enabled: true
@@ -306,7 +306,7 @@ permissionsCommand:
   aliases:
   - "permissions"
   - "perms"
-  description: "Edit your Island permissions"
+  description: "Edit your habitat permissions"
   permission: ""
   syntax: ""
   enabled: true
@@ -314,7 +314,7 @@ permissionsCommand:
 privateCommand:
   aliases:
   - "private"
-  description: "Make your Island private"
+  description: "Make your habitat private"
   permission: ""
   syntax: ""
   enabled: true
@@ -330,7 +330,7 @@ promoteCommand:
 publicCommand:
   aliases:
   - "public"
-  description: "Make your Island public"
+  description: "Make your habitat public"
   permission: ""
   syntax: ""
   enabled: true
@@ -339,7 +339,7 @@ recalculateCommand:
   aliases:
   - "recalculate"
   - "recalc"
-  description: "Recalculate all Island Values"
+  description: "Recalculate all habitat Values"
   permission: "iridiumskyblock.recalculate"
   syntax: ""
   enabled: true
@@ -347,7 +347,7 @@ recalculateCommand:
 regenCommand:
   aliases:
   - "regen"
-  description: "Regenerate your Island"
+  description: "Regenerate your habitat"
   permission: ""
   syntax: "%prefix% &7/is regen <schematic>"
   enabled: true
@@ -363,7 +363,7 @@ reloadCommand:
 renameCommand:
   aliases:
   - "rename"
-  description: "Change your island name"
+  description: "Change your habitat name"
   permission: ""
   syntax: "%prefix% &7/is rename <name>"
   enabled: true
@@ -371,7 +371,7 @@ renameCommand:
 rewardsCommand:
   aliases:
   - "rewards"
-  description: "Claim your Island Rewards"
+  description: "Claim your habitat Rewards"
   permission: ""
   syntax: ""
   enabled: true
@@ -379,7 +379,7 @@ rewardsCommand:
 setHomeCommand:
   aliases:
   - "sethome"
-  description: "Set your Island home"
+  description: "Set your habitat home"
   permission: ""
   syntax: ""
   enabled: true
@@ -388,7 +388,7 @@ setWarpCommand:
   aliases:
   - "setwarp"
   - "createwarp"
-  description: "Creates an Island warp"
+  description: "Creates an habitat warp"
   permission: ""
   syntax: "%prefix% &7/is setwarp <name> <password>"
   enabled: true
@@ -396,7 +396,7 @@ setWarpCommand:
 settingsCommand:
   aliases:
   - "settings"
-  description: "Edit your Island settings"
+  description: "Edit your habitat settings"
   permission: ""
   syntax: ""
   enabled: true
@@ -404,7 +404,7 @@ settingsCommand:
 shopCommand:
   aliases:
   - "shop"
-  description: "Opens the Island shop"
+  description: "Opens the habitat shop"
   permission: ""
   syntax: "%prefix% &7/is shop <category>"
   enabled: true
@@ -412,7 +412,7 @@ shopCommand:
 spyCommand:
   aliases:
   - "spy"
-  description: "Read the chats of other Islands"
+  description: "Read the chats of other habitats"
   permission: "iridiumskyblock.spy"
   syntax: ""
   enabled: true
@@ -420,7 +420,7 @@ spyCommand:
 topCommand:
   aliases:
   - "top"
-  description: "Display the top Islands"
+  description: "Display the top habitats"
   permission: ""
   syntax: ""
   enabled: true
@@ -428,7 +428,7 @@ topCommand:
 transferCommand:
   aliases:
   - "transfer"
-  description: "Transfer Island ownership to another player"
+  description: "Transfer habitat ownership to another player"
   permission: ""
   syntax: "%prefix% &7/is transfer <player>"
   enabled: true
@@ -445,7 +445,7 @@ trustCommand:
 unBanCommand:
   aliases:
   - "unban"
-  description: "Un-ban a player visiting from your island"
+  description: "Un-ban a player visiting from your habitat"
   permission: ""
   syntax: "%prefix% &7/is unban <player>"
   enabled: true
@@ -453,7 +453,7 @@ unBanCommand:
 unInviteCommand:
   aliases:
   - "uninvite"
-  description: "Revoke an invitation to your Island"
+  description: "Revoke an invitation to your habitat"
   permission: ""
   syntax: "%prefix% &7/is uninvite <player>"
   enabled: true
@@ -461,7 +461,7 @@ unInviteCommand:
 unTrustCommand:
   aliases:
   - "untrust"
-  description: "Revoke a trusted user from your Island"
+  description: "Revoke a trusted user from your habitat"
   permission: ""
   syntax: "%prefix% &7/is untrust <player>"
   enabled: true
@@ -470,7 +470,7 @@ upgradesCommand:
   aliases:
   - "upgrades"
   - "upgrade"
-  description: "Open the Island Upgrades Menu"
+  description: "Open the habitat Upgrades Menu"
   permission: ""
   syntax: "%prefix% &7/is upgrade <name>"
   enabled: true
@@ -478,7 +478,7 @@ upgradesCommand:
 valueCommand:
   aliases:
   - "value"
-  description: "View your Island value"
+  description: "View your habitat value"
   permission: ""
   syntax: ""
   enabled: true
@@ -486,7 +486,7 @@ valueCommand:
 visitCommand:
   aliases:
   - "visit"
-  description: "Visit another players Island"
+  description: "Visit another players habitat"
   permission: ""
   syntax: "%prefix% &7/is visit <player>"
   enabled: true
@@ -495,7 +495,7 @@ warpsCommand:
   aliases:
   - "warp"
   - "warps"
-  description: "Open the Island Warps Menu"
+  description: "Open the habitat Warps Menu"
   permission: ""
   syntax: "%prefix% &7/is warp <name> <password>"
   enabled: true
@@ -503,7 +503,7 @@ warpsCommand:
 withdrawCommand:
   aliases:
   - "withdraw"
-  description: "Withdraw from your Island bank"
+  description: "Withdraw from your habitat bank"
   permission: ""
   syntax: "%prefix% &7/is withdraw <type> <amount>"
   enabled: true
