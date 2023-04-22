@@ -1,8 +1,8 @@
 ---
-prefix: "<GRADIENT:09C6F9>&lIridiumSkyblock</GRADIENT:045DE9> &8»"
+prefix: "<GRADIENT:09C6F9>&lHabitat</GRADIENT:045DE9> &8»"
 worldName: "IridiumSkyblock"
 islandCreateTitle: "&b&lHabitat Created"
-islandCreateSubTitle: "&7IridiumSkyblock by Peaches_MLG"
+islandCreateSubTitle: "&7Enjoy your Habitat!"
 dateTimeFormat: "EEEE, MMMM dd HH:mm:ss"
 spawnWorldName: "world"
 defaultCommandSyntax: "/ha %command%"
