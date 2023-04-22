@@ -5,13 +5,13 @@ sizeUpgrade:
   item:
     material: "GRASS_BLOCK"
     amount: 1
-    displayName: "&b&lIsland Size"
+    displayName: "&b&lHabitat Size"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - "&7Need more room to expand? Buy this"
-    - "&7upgrade to increase your island size."
+    - "&7upgrade to increase your Habitat size."
     - ""
     - "&b&lInformation:"
     - "&b&l * &7Current Level: &b%level%"
@@ -43,7 +43,7 @@ memberUpgrade:
   item:
     material: "ARMOR_STAND"
     amount: 1
-    displayName: "&b&lIsland Members"
+    displayName: "&b&lHabitat Members"
     headData: null
     headOwner: null
     headOwnerUUID: null
@@ -81,7 +81,7 @@ blockLimitUpgrade:
   item:
     material: "HOPPER"
     amount: 1
-    displayName: "&b&lIsland Block Limits"
+    displayName: "&b&lHabitat Block Limits"
     headData: null
     headOwner: null
     headOwnerUUID: null
@@ -137,13 +137,13 @@ warpsUpgrade:
   item:
     material: "END_PORTAL_FRAME"
     amount: 1
-    displayName: "&b&lIsland Warps"
+    displayName: "&b&lHabitat Warps"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Need more island warps? Buy this"
-    - "&7upgrade to increase your island warps."
+    - "&7Need more Habitat warps? Buy this"
+    - "&7upgrade to increase your Habitat warps."
     - ""
     - "&b&lInformation:"
     - "&b&l * &7Current Level: &b%level%"
@@ -184,13 +184,13 @@ oresUpgrade:
   item:
     material: "DIAMOND_ORE"
     amount: 1
-    displayName: "&b&lIsland Generator"
+    displayName: "&b&lHabitat Generator"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - "&7Want to improve your generator? Buy this"
-    - "&7upgrade to improve your island generator."
+    - "&7upgrade to improve your Habitat generator."
     - ""
     - "&b&lInformation:"
     - "&b&l * &7Current Level: &b%level%"

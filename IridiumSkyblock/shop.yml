@@ -1141,8 +1141,8 @@ items:
     sellReward:
       vault: 0.0
       crystals: 0
-overviewTitle: "&7Island Shop"
-categoryTitle: "&7Island Shop | %category_name%"
+overviewTitle: "&7Habitat Shop"
+categoryTitle: "&7Habitat Shop | %category_name%"
 buyPriceLore: "&aBuy Price: $%buy_price_vault%, %buy_price_crystals% Crystals"
 sellRewardLore: "&cSelling Reward: $%sell_reward_vault%, %sell_reward_crystals% Crystals"
 notPurchasableLore: "&cThis item cannot be purchased!"

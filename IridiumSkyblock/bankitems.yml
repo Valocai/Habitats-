@@ -7,7 +7,7 @@ crystalsBankItem:
   item:
     material: "NETHER_STAR"
     amount: 1
-    displayName: "&b&lIsland Crystals"
+    displayName: "&b&lHabitat Crystals"
     headData: null
     headOwner: null
     headOwnerUUID: null
