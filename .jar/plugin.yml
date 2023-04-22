@@ -17,5 +17,5 @@ loadbefore:
 #  - "Multiverse-Core"
 commands:
   iridiumskyblock:
-    aliases: [ "habitat", h ]
+    aliases: [ "habitat", is ]
     description: Main plugin command
