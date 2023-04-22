@@ -1,13 +1,13 @@
 ---
 prefix: "<GRADIENT:09C6F9>&lIridiumSkyblock</GRADIENT:045DE9> &8»"
 worldName: "IridiumSkyblock"
-islandCreateTitle: "&b&lIsland Created"
+islandCreateTitle: "&b&lHabitat Created"
 islandCreateSubTitle: "&7IridiumSkyblock by Peaches_MLG"
 dateTimeFormat: "EEEE, MMMM dd HH:mm:ss"
 spawnWorldName: "world"
 defaultCommandSyntax: "/is %command%"
 islandLevelEquation: "abs(cbrt($1+1))"
-defaultIslandName: "%island_owner_name%'s Island"
+defaultIslandName: "%island_owner_name%'s Habitat"
 paster: "worldedit"
 enableCheckVersion: true
 defaultIslandPublic: true
@@ -80,7 +80,7 @@ islandCrystal:
   headOwnerUUID: null
   lore:
   - ""
-  - "&b%amount% Island Crystals"
+  - "&b%amount% Habitat Crystals"
   - "&b&l[!] &bRight-Click to Redeem"
   slot: null
 islandLevelUpSound: "ENTITY_PLAYER_LEVELUP"
@@ -126,8 +126,8 @@ islandLevelRewards:
       headOwnerUUID: null
       lore:
       - "&7Island Level %island_level% Rewards:"
-      - "&b&l* &b5 Island Crystals"
-      - "&b&l* &b200 Island Money"
+      - "&b&l* &b5 Habitat Crystals"
+      - "&b&l* &b200 Habitat Money"
       - ""
       - "&b&l[!] &bLeft click to redeem"
       slot: null
@@ -147,8 +147,8 @@ islandLevelRewards:
       headOwnerUUID: null
       lore:
       - "&7Island Level %island_level% Rewards:"
-      - "&b&l* &b15 Island Crystals"
-      - "&b&l* &b2000 Island Money"
+      - "&b&l* &b15 Habitat Crystals"
+      - "&b&l* &b2000 Habitat Money"
       - ""
       - "&b&l[!] &bLeft click to redeem"
       slot: null
