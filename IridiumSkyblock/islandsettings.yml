@@ -30,7 +30,7 @@ leafDecay:
     - "&b&lValue"
     - "&7%value%"
     slot: 11
-  defaultValue: "true"
+  defaultValue: "false"
 weather:
   modifiable: true
   item:
