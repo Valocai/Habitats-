@@ -131,7 +131,7 @@ islandBorder:
       headOwnerUUID: null
       lore: []
       slot: 14
-    is border off:
+   # is border off:
      # material: "WHITE_STAINED_GLASS_PANE"
      # amount: 1
      # displayName: "&f&lOff"
@@ -155,7 +155,7 @@ islandMenu:
       slot: null
     items: {}
   items:
-    is regen:
+   # is regen:
      # material: "GRASS_BLOCK"
      # amount: 1
      # displayName: "&b&lIsland Regen"
@@ -195,7 +195,7 @@ islandMenu:
       lore:
       - "&7View your island members"
       slot: 14
-    is warps:
+   # is warps:
      # material: "END_PORTAL_FRAME"
      # amount: 1
      # displayName: "&b&lIsland Warps"
@@ -215,7 +215,7 @@ islandMenu:
       lore:
       - "&7View your island upgrades"
       slot: 21
-    is missions:
+   # is missions:
      # material: "IRON_SWORD"
      # amount: 1
      # displayName: "&b&lIsland Missions"
@@ -275,7 +275,7 @@ islandMenu:
       lore:
       - "&7Delete your island"
       slot: 44
-missionSelectGUI:
+# missionSelectGUI:
  # size: 27
  # title: "&7Island Missions"
  # background:
@@ -371,7 +371,7 @@ missionSelectGUI:
        # lore: []
        # slot: null
  # items:
-    is missions once:
+   # is missions once:
      # material: "WRITABLE_BOOK"
      # amount: 1
      # displayName: "&b&lQuests"
@@ -380,7 +380,7 @@ missionSelectGUI:
      # headOwnerUUID: null
      # lore: []
      # slot: 15
-    is missions daily:
+   # is missions daily:
      # material: "DIAMOND_SWORD"
      # amount: 1
      # displayName: "&b&lDaily Missions"
@@ -1294,7 +1294,7 @@ boostersGUI:
         headOwnerUUID: null
         lore: []
         slot: null
-warpsGUI:
+# warpsGUI:
  # size: 27
  # title: "&7%island_name%'s Island Warps"
  # background:
@@ -1540,7 +1540,7 @@ islandSchematicGUI:
         headOwnerUUID: null
         lore: []
         slot: null
-dailyMissionGUI:
+# dailyMissionGUI:
  # size: 27
  # title: "&7Daily Island Missions"
  # background:
@@ -1635,7 +1635,7 @@ dailyMissionGUI:
        # headOwnerUUID: null
        # lore: []
        # slot: null
-missionsGUI:
+# missionsGUI:
  # size: 45
  # title: "&7Island Missions"
  # background:
@@ -1764,7 +1764,7 @@ biomeGUI:
     lore:
     - "&7Click to change your island biome!"
     slot: null
-islandReward:
+# islandReward:
   # size: 45
   # title: "&7Island Rewards"
   # background:
