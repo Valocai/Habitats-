@@ -51,7 +51,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   hunter:
     item:
       material: "BONE"
@@ -103,7 +103,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   baker:
     item:
       material: "BREAD"
@@ -151,7 +151,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   miner:
     item:
       material: "GOLD_ORE"
@@ -203,7 +203,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   fisherman:
     item:
       material: "FISHING_ROD"
@@ -251,7 +251,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   blacksmith:
     item:
       material: "IRON_INGOT"
@@ -301,7 +301,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   potionbrewer:
     item:
       material: "POTION"
@@ -351,7 +351,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   lumberjack:
     item:
       material: "OAK_LOG"
@@ -399,7 +399,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   crafting:
     item:
       material: "CRAFTING_TABLE"
@@ -451,7 +451,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   mining:
     item:
       material: "COBBLESTONE"
@@ -499,7 +499,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   killMobs:
     item:
       material: "DIAMOND_SWORD"
@@ -551,7 +551,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   wheat:
     item:
       material: "WHEAT"
@@ -599,7 +599,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   carrots:
     item:
       material: "CARROT"
@@ -647,7 +647,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   melon:
     item:
       material: "MELON_SLICE"
@@ -695,7 +695,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   sugarcane:
     item:
       material: "SUGAR_CANE"
@@ -743,7 +743,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   cactus:
     item:
       material: "CACTUS"
@@ -791,7 +791,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   iron:
     item:
       material: "IRON_ORE"
@@ -841,7 +841,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
   diamonds:
     item:
       material: "DIAMOND_ORE"
@@ -889,7 +889,7 @@ missions:
     - "&b&l* &7+3 Habitat Experience"
     - "&b&l* &7+5 Habitat Crystals"
     - "&b&l* &7+1000 Money"
-    - "&7/is rewards to redeem rewards"
+    - "&7/ha rewards to redeem rewards"
 dailySlots:
 - 10
 - 12

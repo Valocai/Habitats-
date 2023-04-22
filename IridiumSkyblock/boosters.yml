@@ -84,7 +84,7 @@ flightBooster:
     headOwnerUUID: null
     lore:
     - "&7Keep falling off your island? Buy this"
-    - "&7booster and Gain access to /is fly."
+    - "&7booster and Gain access to /ha fly."
     - ""
     - "&b&lInformation:"
     - "&b&l * &7Time Remaining: &b%timeremaining_minutes% minutes and %timeremaining_seconds%\
