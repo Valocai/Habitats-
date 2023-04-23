@@ -36,6 +36,7 @@ sizeUpgrade:
     3:
       money: 1000
       #crystals: 15
+      size: 150
       size: 300
     4:
       money: 1000
