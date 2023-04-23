@@ -1,5 +1,35 @@
 ---
 schematics:
+  habitat2:
+    item:
+      material: "PLAYER_HEAD"
+      amount: 1
+      displayName: "&b&lRandom Habitat"
+      headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0="
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "&7Generate a Random Habitat."
+      slot: 13
+    xHome: 0.5
+    yHome: 89.0
+    zHome: 0.5
+    yawHome: 0.0
+    overworld:
+      biome: "JUNGLE"
+      schematicID: "air.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
+    nether:
+      biome: "NETHER_WASTES"
+      schematicID: "air_nether.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
+    end:
+      biome: "THE_END"
+      schematicID: "air_end.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
   habitat:
     item:
       material: "PLAYER_HEAD"
