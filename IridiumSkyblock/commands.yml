@@ -117,7 +117,7 @@ deleteCommand:
   aliases:
   - "delete"
   description: "Delete your habitat"
-  permission: ""
+  permission: "iridiumskyblock.habitatdelete"
   syntax: "%prefix% &7/ha delete <name>"
   enabled: true
   cooldownInSeconds: 300
