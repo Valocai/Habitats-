@@ -28,15 +28,23 @@ sizeUpgrade:
     1:
       money: 1000
       #crystals: 15
-      size: 50
+      size: 100
     2:
       money: 1000
       #crystals: 15
-      size: 100
+      size: 200
     3:
       money: 1000
       #crystals: 15
-      size: 150
+      size: 300
+    4:
+      money: 1000
+      #crystals: 15
+      size: 400
+    5:
+      money: 1000
+      #crystals: 15
+      size: 500
 memberUpgrade:
   enabled: true
   name: "Member"
