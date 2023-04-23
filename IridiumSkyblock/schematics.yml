@@ -1,5 +1,35 @@
 ---
 schematics:
+  airitem1:
+    item:
+      material: "AIR"
+      amount: 1
+      displayName: "‎ "
+      headData: "‎ "
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "‎ "
+      slot: 14
+    xHome: 0.5
+    yHome: 89.0
+    zHome: 0.5
+    yawHome: 0.0
+    overworld:
+      biome: "JUNGLE"
+      schematicID: "air.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
+    nether:
+      biome: "NETHER_WASTES"
+      schematicID: "air_nether.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
+    end:
+      biome: "THE_END"
+      schematicID: "air_end.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
   habitat:
     item:
       material: "PLAYER_HEAD"
@@ -10,6 +40,36 @@ schematics:
       headOwnerUUID: null
       lore:
       - "&7Generate a Random Habitat."
+      slot: 13
+    xHome: 0.5
+    yHome: 89.0
+    zHome: 0.5
+    yawHome: 0.0
+    overworld:
+      biome: "JUNGLE"
+      schematicID: "air.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
+    nether:
+      biome: "NETHER_WASTES"
+      schematicID: "air_nether.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
+    end:
+      biome: "THE_END"
+      schematicID: "air_end.schem"
+      islandHeight: 90.0
+      ignoreAirBlocks: true
+  airitem2:
+    item:
+      material: "‎ "
+      amount: 1
+      displayName: "‎ "
+      headData: "‎ "
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "‎ "
       slot: 13
     xHome: 0.5
     yHome: 89.0
