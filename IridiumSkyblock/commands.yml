@@ -128,7 +128,7 @@ deleteWarpCommand:
   description: "Deletes an habitat warp"
   permission: ""
   syntax: "%prefix% &7/ha deletewarp <name>"
-  enabled: true
+  enabled: false
   cooldownInSeconds: 0
 demoteCommand:
   aliases:
@@ -152,7 +152,7 @@ editWarpCommand:
   description: "Edits an habitat warp"
   permission: ""
   syntax: "%prefix% &7/ha editwarp <name> <icon/description>"
-  enabled: true
+  enabled: false
   cooldownInSeconds: 0
 expelCommand:
   aliases:
@@ -391,7 +391,7 @@ setWarpCommand:
   description: "Creates an habitat warp"
   permission: ""
   syntax: "%prefix% &7/ha setwarp <name> <password>"
-  enabled: true
+  enabled: false
   cooldownInSeconds: 0
 settingsCommand:
   aliases:
@@ -498,7 +498,7 @@ warpsCommand:
   description: "Open the habitat Warps Menu"
   permission: ""
   syntax: "%prefix% &7/ha warp <name> <password>"
-  enabled: true
+  enabled: false
   cooldownInSeconds: 0
 withdrawCommand:
   aliases:
