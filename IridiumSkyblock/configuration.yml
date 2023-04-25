@@ -154,7 +154,7 @@ islandLevelRewards:
       slot: null
     commands: []
     islandExperience: 0
-    crystals: 15
+    crystals: 0
     money: 2000.0
     experience: 0
     sound: "ENTITY_PLAYER_LEVELUP"

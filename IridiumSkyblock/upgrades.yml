@@ -27,25 +27,16 @@ sizeUpgrade:
   upgrades:
     1:
       money: 1000
-      #crystals: 15
+      crystals: 0
       size: 100
     2:
       money: 1000
-      #crystals: 15
+      crystals: 0
       size: 200
     3:
       money: 1000
-      #crystals: 15
-      size: 150
+      crystals: 0
       size: 300
-    4:
-      money: 1000
-      #crystals: 15
-      size: 400
-    5:
-      money: 1000
-      #crystals: 15
-      size: 500
 memberUpgrade:
   enabled: true
   name: "Member"
@@ -74,18 +65,18 @@ memberUpgrade:
   upgrades:
     1:
       money: 1000
-      #crystals: 15
-      amount: 9
+      crystals: 0
+      amount: 3
     2:
       money: 1000
-      #crystals: 15
-      amount: 18
+      crystals: 0
+      amount: 6
     3:
       money: 1000
-      #crystals: 15
-      amount: 27
+      crystals: 0
+      amount: 12
 blockLimitUpgrade:
-  enabled: true
+  enabled: false
   name: "Block Limit"
   item:
     material: "HOPPER"
@@ -107,41 +98,41 @@ blockLimitUpgrade:
   upgrades:
     1:
       money: 1000
-      #crystals: 15
+      crystals: 0
       limits:
         HOPPER: 15
         PISTON: 10
         SPAWNER: 10
     2:
       money: 1000
-      #crystals: 15
+      crystals: 0
       limits:
         HOPPER: 20
         PISTON: 15
         SPAWNER: 15
     3:
       money: 1000
-      #crystals: 15
+      crystals: 0
       limits:
         HOPPER: 25
         PISTON: 20
         SPAWNER: 20
     4:
       money: 1000
-      #crystals: 15
+      crystals: 0
       limits:
         HOPPER: 30
         PISTON: 25
         SPAWNER: 25
     5:
       money: 1000
-      #crystals: 15
+      crystals: 0
       limits:
         HOPPER: 40
         PISTON: 30
         SPAWNER: 30
 warpsUpgrade:
-  enabled: true
+  enabled: false
   name: "Warps"
   item:
     material: "END_PORTAL_FRAME"
@@ -169,26 +160,26 @@ warpsUpgrade:
   upgrades:
     1:
       money: 1000
-      #crystals: 15
+      crystals: 0
       amount: 1
     2:
       money: 1000
-      #crystals: 15
+      crystals: 0
       amount: 2
     3:
       money: 1000
-      #crystals: 15
+      crystals: 0
       amount: 3
     4:
       money: 1000
-      #crystals: 15
+      crystals: 0
       amount: 4
     5:
       money: 1000
-      #crystals: 15
+      crystals: 0
       amount: 5
 oresUpgrade:
-  enabled: true
+  enabled: false
   name: "Ore Generator"
   item:
     material: "DIAMOND_ORE"
@@ -210,7 +201,7 @@ oresUpgrade:
   upgrades:
     1:
       money: 1000
-      #crystals: 15
+      crystals: 0
       ores:
         COBBLESTONE: 3
         COAL_ORE: 1
@@ -218,7 +209,7 @@ oresUpgrade:
         BASALT: 1
     2:
       money: 1000
-      #crystals: 15
+      crystals: 0
       ores:
         DIAMOND_ORE: 1
         IRON_ORE: 10
@@ -236,7 +227,7 @@ oresUpgrade:
         ANCIENT_DEBRIS: 1
     3:
       money: 1000
-      #crystals: 15
+      crystals: 0
       ores:
         DIAMOND_ORE: 10
         IRON_ORE: 10

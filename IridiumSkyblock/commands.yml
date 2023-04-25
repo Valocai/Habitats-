@@ -407,7 +407,7 @@ shopCommand:
   description: "Opens the habitat shop"
   permission: ""
   syntax: "%prefix% &7/ha shop <category>"
-  enabled: true
+  enabled: false
   cooldownInSeconds: 0
 spyCommand:
   aliases:
