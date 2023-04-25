@@ -22,9 +22,9 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "GROW:SUGAR_CANE:10"
-    - "GROW:WHEAT:10"
-    - "GROW:CARROTS:10"
+    - ""
+    - ""
+    - ""
     missionType: "DAILY"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -74,9 +74,9 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "KILL:ZOMBIE:10"
-    - "KILL:SKELETON:10"
-    - "KILL:CREEPER:10"
+    - ""
+    - ""
+    - ""
     missionType: "DAILY"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -124,7 +124,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "CRAFT:BREAD:64"
+    - ""
     missionType: "DAILY"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -174,9 +174,9 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "MINE:IRON_ORE:15"
-    - "MINE:COAL_ORE:30"
-    - "MINE:DIAMOND_ORE:1"
+    - ""
+    - ""
+    - ""
     missionType: "DAILY"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -224,7 +224,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "FISH:ANY:10"
+    - ""
     missionType: "DAILY"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -273,8 +273,8 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "SMELT:RAW_IRON:30"
-    - "SMELT:RAW_GOLD:15"
+    - ""
+    - ""
     missionType: "DAILY"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -323,8 +323,8 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "BREW:SPEED:2:3"
-    - "BREW:STRENGTH:2:3"
+    - ""
+    - ""
     missionType: "DAILY"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -372,7 +372,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "MINE:LOGS:16"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -422,9 +422,9 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "CRAFT:CRAFTING_TABLE:1"
-    - "CRAFT:FURNACE:4"
-    - "CRAFT:CHEST:4"
+    - ""
+    - ""
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -472,7 +472,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "MINE:COBBLESTONE:100"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -522,9 +522,9 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "KILL:ZOMBIE:10"
-    - "KILL:SKELETON:10"
-    - "KILL:CREEPER:10"
+    - ""
+    - ""
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -572,7 +572,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "GROW:WHEAT:64"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -620,7 +620,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "GROW:CARROTS:64"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -668,7 +668,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "GROW:MELON:64"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -716,7 +716,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "GROW:SUGAR_CANE:64"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -764,7 +764,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "GROW:CACTUS:64"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -813,8 +813,8 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "MINE:IRON_ORE:32"
-    - "SMELT:RAW_IRON:32"
+    - ""
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
@@ -862,7 +862,7 @@ missions:
       - "&b&l* &7$1000"
       slot: null
     missions:
-    - "MINE:DIAMOND_ORE:5"
+    - ""
     missionType: "ONCE"
     completeSound: "ENTITY_PLAYER_LEVELUP"
     reward:
