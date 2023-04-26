@@ -1,6 +1,6 @@
 ---
 backButton:
-  material: "NETHER_STAR"
+  material: "SPECTRAL_ARROW"
   amount: 1
   displayName: "&c&lBack"
   headData: null
@@ -13,7 +13,7 @@ islandBorder:
   title: "&7Island Border"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -23,7 +23,7 @@ islandBorder:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -32,7 +32,7 @@ islandBorder:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -41,7 +41,7 @@ islandBorder:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -50,7 +50,7 @@ islandBorder:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -59,7 +59,7 @@ islandBorder:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -68,7 +68,7 @@ islandBorder:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -77,7 +77,7 @@ islandBorder:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -86,7 +86,7 @@ islandBorder:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -95,7 +95,7 @@ islandBorder:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -105,47 +105,38 @@ islandBorder:
         slot: null
   items:
     is border blue:
-      material: "BLUE_STAINED_GLASS_PANE"
+      material: "LIGHT_BLUE_DYE"
       amount: 1
       displayName: "&b&lBlue"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore: []
-      slot: 10
+      slot: 11
     is border red:
-      material: "RED_STAINED_GLASS_PANE"
+      material: "RED_DYE"
       amount: 1
       displayName: "&c&lRed"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore: []
-      slot: 12
+      slot: 13
     is border green:
-      material: "GREEN_STAINED_GLASS_PANE"
+      material: "LIME_DYE"
       amount: 1
       displayName: "&a&lGreen"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore: []
-      slot: 14
-   # is border off:
-     # material: "WHITE_STAINED_GLASS_PANE"
-     # amount: 1
-     # displayName: "&f&lOff"
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: 16
+      slot: 15
 islandMenu:
   size: 45
   title: "&7Island Menu"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -155,246 +146,132 @@ islandMenu:
       slot: null
     items: {}
   items:
-   # is regen:
-     # material: "GRASS_BLOCK"
-     # amount: 1
-     # displayName: "&b&lIsland Regen"
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore:
-     # - "&7Regenerate your island"
-     # slot: 12
     is boosters:
       material: "EXPERIENCE_BOTTLE"
       amount: 1
-      displayName: "&b&lIsland Boosters"
+      displayName: "&6&lHabitat Boosters"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7View your island boosters"
-      slot: 23
+      - "&7View your Habitat boosters"
+      slot: 19
     is home:
-      material: "WHITE_BED"
+      material: "COMPASS"
       amount: 1
-      displayName: "&b&lIsland Home"
+      displayName: "&6&lHabitat Home"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7Teleport to your island home"
-      slot: 13
+      - "&7Teleport to your Habitat home"
+      slot: 40
     is members:
       material: "PLAYER_HEAD"
       amount: 1
-      displayName: "&b&lIsland Members"
+      displayName: "&6&lHabitat Members"
       headData: null
-      headOwner: "Peaches_MLG"
+      headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7View your island members"
-      slot: 14
-   # is warps:
-     # material: "END_PORTAL_FRAME"
-     # amount: 1
-     # displayName: "&b&lIsland Warps"
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore:
-     # - "&7View your island warps"
-     # slot: 20
+      - "&7View your Habitat members"
+      slot: 16
     is upgrade:
-      material: "DIAMOND"
+      material: "ENCHANTED_BOOK"
       amount: 1
-      displayName: "&b&lIsland Upgrades"
+      displayName: "&6&lHabitat Upgrades"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7View your island upgrades"
-      slot: 21
-   # is missions:
-     # material: "IRON_SWORD"
-     # amount: 1
-     # displayName: "&b&lIsland Missions"
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore:
-     # - "&7View your island missions"
-     # slot: 22
+      - "&7View your Habitat upgrades"
+      slot: 1
     is border:
-      material: "BEACON"
+      material: "WHITE_DYE"
       amount: 1
-      displayName: "&b&lIsland Border"
+      displayName: "&6&lHabitat Border"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7Change your island border"
-      slot: 24
+      - "&7Change your Habitat border"
+      slot: 41
     is bank:
-      material: "PLAYER_HEAD"
+      material: "BUNDLE"
       amount: 1
-      displayName: "&b&lIsland Bank"
-      headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4MWM1MjlkNTJlMDNjZDc0YzNiZjM4YmI2YmEzZmRlMTMzN2FlOWJmNTAzMzJmYWE4ODllMGEyOGU4MDgxZiJ9fX0"
+      displayName: "&6&lHabitat Bank"
+      headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7View your island bank"
-      slot: 30
+      - "&7View your Habitat bank"
+      slot: 10
     is permissions:
       material: "WRITABLE_BOOK"
       amount: 1
-      displayName: "&b&lIsland Permissions"
+      displayName: "&6&lHabitat Permissions"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7View your island permissions"
-      slot: 31
+      - "&7View your Habitat permissions"
+      slot: 7
     is trusted:
       material: "NAME_TAG"
       amount: 1
-      displayName: "&b&lTrusted Members"
+      displayName: "&6&lTrusted Members"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7View your island's trusted members"
-      slot: 32
+      - "&7View your Habitat's trusted members"
+      slot: 25
     is delete:
-      material: "BARRIER"
+      material: "STRUCTURE_VOID"
       amount: 1
-      displayName: "&b&lDelete Island"
+      displayName: "&6&lDelete Habitat"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7Delete your island"
-      slot: 44
-# missionSelectGUI:
- # size: 27
- # title: "&7Island Missions"
- # background:
-   # filler:
-     # material: "BLACK_STAINED_GLASS_PANE"
-     # amount: 1
-     # displayName: " "
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: null
-   # items:
-     # 9:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 10:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 11:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 12:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 13:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 14:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 15:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 16:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 17:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
- # items:
-   # is missions once:
-     # material: "WRITABLE_BOOK"
-     # amount: 1
-     # displayName: "&b&lQuests"
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: 15
-   # is missions daily:
-     # material: "DIAMOND_SWORD"
-     # amount: 1
-     # displayName: "&b&lDaily Missions"
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: 11
-blockValueSelectGUI:
+      - "&7Delete your Habitat"
+      slot: 37
+    is visit:
+      material: "RECOVERY_COMPASS"
+      amount: 1
+      displayName: "&6&lVistit Habitat"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "&7Vistit other Habitats"
+      slot: 31
+    is invites:
+      material: "BOOK"
+      amount: 1
+      displayName: "&6&lInvites for Habitats"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "&7See your invites for Habitats"
+      slot: 43
+    is biome:
+      material: "KELP"
+      amount: 1
+      displayName: "&6&l Habitat Biome"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "&7Change your Habitat's Biome"
+      slot: 39
+missionSelectGUI:
   size: 27
-  title: "Block Values"
+  title: "&7Island Missions"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -404,7 +281,7 @@ blockValueSelectGUI:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -413,7 +290,7 @@ blockValueSelectGUI:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -422,7 +299,7 @@ blockValueSelectGUI:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -431,7 +308,7 @@ blockValueSelectGUI:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -440,7 +317,7 @@ blockValueSelectGUI:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -449,7 +326,7 @@ blockValueSelectGUI:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -458,7 +335,7 @@ blockValueSelectGUI:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -467,7 +344,7 @@ blockValueSelectGUI:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -476,7 +353,121 @@ blockValueSelectGUI:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+  items:
+    is missions once:
+      material: "WRITABLE_BOOK"
+      amount: 1
+      displayName: "&b&lQuests"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 15
+    is missions daily:
+      material: "DIAMOND_SWORD"
+      amount: 1
+      displayName: "&b&lDaily Missions"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 11
+blockValueSelectGUI:
+  size: 27
+  title: "Block Values"
+  background:
+    filler:
+      material: "AIR"
+      amount: 1
+      displayName: " "
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      10:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      11:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      12:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      13:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      14:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      15:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      16:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      17:
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -504,11 +495,11 @@ blockValueSelectGUI:
       lore: []
       slot: 15
 visitGUI:
-  size: 45
+  size: 27
   title: "&7Visit an Island"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -533,7 +524,7 @@ membersGUI:
   title: "&7Island Members"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -561,7 +552,7 @@ bansGUI:
   title: "&7Island Bans"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -588,7 +579,7 @@ trustedGUI:
   title: "&7Trusted Members"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -615,7 +606,7 @@ visitorsGUI:
   title: "&7Island Visitors"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -642,7 +633,7 @@ islandTopGUI:
   title: "&7Top Islands"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -687,7 +678,7 @@ confirmationGUI:
   title: "&7Are you sure?"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -697,7 +688,7 @@ confirmationGUI:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -706,7 +697,7 @@ confirmationGUI:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -715,7 +706,7 @@ confirmationGUI:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -724,7 +715,7 @@ confirmationGUI:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -733,7 +724,7 @@ confirmationGUI:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -742,7 +733,7 @@ confirmationGUI:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -751,7 +742,7 @@ confirmationGUI:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -760,7 +751,7 @@ confirmationGUI:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -769,7 +760,7 @@ confirmationGUI:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -778,7 +769,7 @@ confirmationGUI:
         lore: []
         slot: null
   "yes":
-    material: "GREEN_STAINED_GLASS_PANE"
+    material: "GREEN_CANDLE"
     amount: 1
     displayName: "&a&lYes"
     headData: null
@@ -787,7 +778,7 @@ confirmationGUI:
     lore: []
     slot: 15
   "no":
-    material: "RED_STAINED_GLASS_PANE"
+    material: "RED_CANDLE"
     amount: 1
     displayName: "&c&lNo"
     headData: null
@@ -800,7 +791,7 @@ bankGUI:
   title: "&7Island Bank"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -810,7 +801,7 @@ bankGUI:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -819,7 +810,7 @@ bankGUI:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -828,7 +819,7 @@ bankGUI:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -837,7 +828,7 @@ bankGUI:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -846,7 +837,7 @@ bankGUI:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -855,7 +846,7 @@ bankGUI:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -864,7 +855,7 @@ bankGUI:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -873,7 +864,7 @@ bankGUI:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -882,7 +873,7 @@ bankGUI:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -895,7 +886,7 @@ logsGUI:
   title: "&7Island Logs"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -905,7 +896,7 @@ logsGUI:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -914,7 +905,7 @@ logsGUI:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -923,7 +914,7 @@ logsGUI:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -932,7 +923,7 @@ logsGUI:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -941,7 +932,7 @@ logsGUI:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -950,7 +941,7 @@ logsGUI:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -959,7 +950,7 @@ logsGUI:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -968,7 +959,7 @@ logsGUI:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -977,7 +968,7 @@ logsGUI:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1109,7 +1100,7 @@ upgradesGUI:
   title: "&7Island Upgrades"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1119,7 +1110,7 @@ upgradesGUI:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1128,7 +1119,7 @@ upgradesGUI:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1137,7 +1128,7 @@ upgradesGUI:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1146,7 +1137,7 @@ upgradesGUI:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1155,7 +1146,7 @@ upgradesGUI:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1164,7 +1155,7 @@ upgradesGUI:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1173,7 +1164,7 @@ upgradesGUI:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1182,7 +1173,7 @@ upgradesGUI:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1191,7 +1182,7 @@ upgradesGUI:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1204,7 +1195,7 @@ boostersGUI:
   title: "&7Island Boosters"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1214,7 +1205,7 @@ boostersGUI:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1223,7 +1214,7 @@ boostersGUI:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1232,7 +1223,7 @@ boostersGUI:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1241,7 +1232,7 @@ boostersGUI:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1250,7 +1241,7 @@ boostersGUI:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1259,7 +1250,7 @@ boostersGUI:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1268,7 +1259,7 @@ boostersGUI:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1277,7 +1268,7 @@ boostersGUI:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1286,7 +1277,7 @@ boostersGUI:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1294,120 +1285,120 @@ boostersGUI:
         headOwnerUUID: null
         lore: []
         slot: null
-# warpsGUI:
- # size: 27
- # title: "&7%island_name%'s Island Warps"
- # background:
-   # filler:
-     # material: "BLACK_STAINED_GLASS_PANE"
-     # amount: 1
-     # displayName: " "
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: null
-   # items:
-     # 9:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 10:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 11:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-        #lore: []
-       # slot: null
-     # 12:
-      # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 13:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 14:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 15:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-      # lore: []
-      # slot: null
-     # 16:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 17:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
- # item:
-   # material: "GREEN_STAINED_GLASS_PANE"
-   # amount: 1
-   # displayName: "&b&l%warp_name%"
-   # headData: null
-   # headOwner: null
-   # headOwnerUUID: null
-   # lore:
-   # - "&7%description%"
-   # - ""
-   # - "&b&l[!] &bLeft Click to Teleport"
-   # - "&b&l[!] &bRight Click to Delete"
-   # slot: null
+warpsGUI:
+  size: 27
+  title: "&7%island_name%'s Island Warps"
+  background:
+    filler:
+      material: "AIR"
+      amount: 1
+      displayName: " "
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      10:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      11:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      12:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      13:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      14:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      15:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      16:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      17:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+  item:
+    material: "GREEN_STAINED_GLASS_PANE"
+    amount: 1
+    displayName: "&b&l%warp_name%"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7%description%"
+    - ""
+    - "&b&l[!] &bLeft Click to Teleport"
+    - "&b&l[!] &bRight Click to Delete"
+    slot: null
 blockValue:
   size: 27
   title: "&7Block Values"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1423,7 +1414,7 @@ islandInvitesGUI:
   title: "&7Island Invites"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1450,7 +1441,7 @@ islandSchematicGUI:
   title: "&7Select a Schematic"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1460,7 +1451,7 @@ islandSchematicGUI:
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1469,7 +1460,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1478,7 +1469,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1487,7 +1478,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1496,7 +1487,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1505,7 +1496,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1514,7 +1505,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1523,7 +1514,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1532,7 +1523,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "AIR"
         amount: 1
         displayName: " "
         headData: null
@@ -1540,121 +1531,121 @@ islandSchematicGUI:
         headOwnerUUID: null
         lore: []
         slot: null
-# dailyMissionGUI:
- # size: 27
- # title: "&7Daily Island Missions"
- # background:
-   # filler:
-     # material: "BLACK_STAINED_GLASS_PANE"
-     # amount: 1
-     # displayName: " "
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: null
-   # items:
-     # 9:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 10:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 11:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 12:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 13:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 14:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 15:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 16:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-     # 17:
-       # material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-       # amount: 1
-       # displayName: " "
-       # headData: null
-       # headOwner: null
-       # headOwnerUUID: null
-       # lore: []
-       # slot: null
-# missionsGUI:
- # size: 45
- # title: "&7Island Missions"
- # background:
-   # filler:
-     # material: "BLACK_STAINED_GLASS_PANE"
-     # amount: 1
-     # displayName: " "
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: null
-   # items: {}
+dailyMissionGUI:
+  size: 27
+  title: "&7Daily Island Missions"
+  background:
+    filler:
+      material: "AIR"
+      amount: 1
+      displayName: " "
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      10:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      11:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      12:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      13:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      14:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      15:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      16:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+      17:
+        material: "AIR"
+        amount: 1
+        displayName: " "
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        lore: []
+        slot: null
+missionsGUI:
+  size: 45
+  title: "&7Island Missions"
+  background:
+    filler:
+      material: "AIR"
+      amount: 1
+      displayName: " "
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: null
+    items: {}
 islandPermissionsGUI:
   size: 54
   title: "&7Island Permissions"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1668,7 +1659,7 @@ islandSettingsGUI:
   title: "&7Island Settings"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1682,7 +1673,7 @@ islandRanksGUI:
   title: "&7Island Permissions"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1692,7 +1683,7 @@ islandRanksGUI:
       slot: null
     items: {}
   owner:
-    material: "GREEN_STAINED_GLASS_PANE"
+    material: "NETHERITE_INGOT"
     amount: 1
     displayName: "&b&lOwner"
     headData: null
@@ -1702,7 +1693,7 @@ islandRanksGUI:
     - "&b%members%"
     slot: 11
   coOwner:
-    material: "GREEN_STAINED_GLASS_PANE"
+    material: "NETHERITE_SCRAP"
     amount: 1
     displayName: "&b&lCo-Owner"
     headData: null
@@ -1712,7 +1703,7 @@ islandRanksGUI:
     - "&b%members%"
     slot: 12
   moderator:
-    material: "GREEN_STAINED_GLASS_PANE"
+    material: "GOLD_INGOT"
     amount: 1
     displayName: "&b&lModerator"
     headData: null
@@ -1722,7 +1713,7 @@ islandRanksGUI:
     - "&b%members%"
     slot: 13
   member:
-    material: "GREEN_STAINED_GLASS_PANE"
+    material: "COPPER_INGOT"
     amount: 1
     displayName: "&b&lMember"
     headData: null
@@ -1732,7 +1723,7 @@ islandRanksGUI:
     - "&b%members%"
     slot: 14
   visitor:
-    material: "GREEN_STAINED_GLASS_PANE"
+    material: "IRON_INGOT"
     amount: 1
     displayName: "&b&lVisitor"
     headData: null
@@ -1745,7 +1736,7 @@ biomeGUI:
   title: "&7Island Biomes"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "AIR"
       amount: 1
       displayName: " "
       headData: null
@@ -1764,22 +1755,22 @@ biomeGUI:
     lore:
     - "&7Click to change your island biome!"
     slot: null
-# islandReward:
-  # size: 45
-  # title: "&7Island Rewards"
-  # background:
-   # filler:
-     # material: "BLACK_STAINED_GLASS_PANE"
-     # amount: 1
-     # displayName: " "
-     # headData: null
-     # headOwner: null
-     # headOwnerUUID: null
-     # lore: []
-     # slot: null
-   # items: {}
+islandReward:
+  size: 45
+  title: "&7Island Rewards"
+  background:
+    filler:
+      material: "AIR"
+      amount: 1
+      displayName: " "
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: null
+    items: {}
 nextPage:
-  material: "LIME_STAINED_GLASS_PANE"
+  material: "ARROW"
   amount: 1
   displayName: "&a&lNext Page"
   headData: null
@@ -1788,7 +1779,7 @@ nextPage:
   lore: []
   slot: null
 previousPage:
-  material: "RED_STAINED_GLASS_PANE"
+  material: "SPECTRAL_ARROW"
   amount: 1
   displayName: "&c&lPrevious Page"
   headData: null

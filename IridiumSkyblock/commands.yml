@@ -300,7 +300,7 @@ missionCommand:
   description: "View your habitat missions"
   permission: ""
   syntax: "%prefix% &7/ha mission <type>"
-  enabled: true
+  enabled: false
   cooldownInSeconds: 0
 permissionsCommand:
   aliases:
@@ -350,7 +350,7 @@ regenCommand:
   description: "Regenerate your habitat"
   permission: ""
   syntax: "%prefix% &7/ha regen <schematic>"
-  enabled: true
+  enabled: false
   cooldownInSeconds: 300
 reloadCommand:
   aliases:
@@ -374,7 +374,7 @@ rewardsCommand:
   description: "Claim your habitat Rewards"
   permission: ""
   syntax: ""
-  enabled: true
+  enabled: false
   cooldownInSeconds: 0
 setHomeCommand:
   aliases:

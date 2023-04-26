@@ -69,11 +69,12 @@ islandMemberChat: "%prefix% &7%player% &8» &f%message%"
 cannotDemoteUser: "%prefix% &7You cannot demote this user."
 demotedPlayer: "%prefix% &7You have demoted %player% to %rank%."
 userDemotedPlayer: "%prefix% &7%promoter% has demoted %player% to %rank%."
-transferredOwnership: "%prefix% &7%oldowner% has transferred Habitat ownership to %newowner%."
+transferredOwnership: "%prefix% &7%oldowner% has transferred Habitat ownership to\
+  \ %newowner%."
 islandValue: "%prefix% &b&l * &7%rank%: &b%value%"
 cannotChangeName: "%prefix% &7You cannot change the Habitat name!"
-islandNameTooLong: "%prefix% %name% is too long for the Habitat name, the maximum length\
-  \ is %max_length%"
+islandNameTooLong: "%prefix% %name% is too long for the Habitat name, the maximum\
+  \ length is %max_length%"
 islandNameTooShort: "%prefix% %name% is too short for the Habitat name, the minimum\
   \ length is %min_length%"
 islandNameChanged: "%prefix% &7%player% has changed the Habitat name to %name%"

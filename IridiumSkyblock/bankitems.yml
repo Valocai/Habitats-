@@ -1,21 +1,21 @@
 ---
-#crystalsBankItem:
- # name: "crystals"
- # displayName: "Crystals"
- # defaultAmount: 10.0
- # enabled: true
- # item:
-   # material: "NETHER_STAR"
-   # amount: 1
-   # displayName: "&b&lHabitat Crystals"
-   # headData: null
-   # headOwner: null
-   # headOwnerUUID: null
-   # lore:
-   # - "&7%amount% Crystals"
-   # - "&b&l[!] &bLeft click to withdraw"
-   # - "&b&l[!] &bRight click to deposit"
-   # slot: 13
+crystalsBankItem:
+  name: "crystals"
+  displayName: "Crystals"
+  defaultAmount: 10.0
+  enabled: false
+  item:
+    material: "NETHER_STAR"
+    amount: 1
+    displayName: "&b&lIsland Crystals"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7%amount% Crystals"
+    - "&b&l[!] &bLeft click to withdraw"
+    - "&b&l[!] &bRight click to deposit"
+    slot: 13
 experienceBankItem:
   name: "experience"
   displayName: "Experience"

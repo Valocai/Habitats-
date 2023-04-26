@@ -3,5 +3,5 @@ defaultColor: "BLUE"
 enabled:
   BLUE: true
   RED: true
- # "OFF": false
   GREEN: true
+  "OFF": false

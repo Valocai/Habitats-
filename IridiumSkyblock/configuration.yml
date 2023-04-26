@@ -1,5 +1,5 @@
 ---
-prefix: "<GRADIENT:09C6F9>&lHabitat</GRADIENT:045DE9> &8»"
+prefix: "<GRADIENT:FFC747>&lHabitat</GRADIENT:89621F> &8»"
 worldName: "IridiumSkyblock"
 islandCreateTitle: "&b&lHabitat Created"
 islandCreateSubTitle: "&7Enjoy your Habitat!"
@@ -12,11 +12,11 @@ paster: "worldedit"
 enableCheckVersion: true
 defaultIslandPublic: true
 voidTeleport: true
-netherIslands: true
-endIslands: true
+netherIslands: false
+endIslands: false
 respawnOnIsland: true
 obsidianBucket: true
-patreonMessage: true
+patreonMessage: false
 islandMenu: true
 backButtons: true
 createIslandOnHome: true
@@ -64,7 +64,7 @@ pvpSettings:
   - "LAVA"
   - "CONTACT"
   - "FIRE_TICK"
-distance: 151
+distance: 600
 islandRecalculateInterval: 5
 chunkPerTickRecalculation: 1
 maxIslandName: 16
