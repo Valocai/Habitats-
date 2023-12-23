@@ -1,4 +1,4 @@
-# Welcome to the Hibitat project! 
+# Welcome to the Habitat project! 
 Boxed Survival Worlds with IridiumSkyblock
 
 Note: This tutorial is only applicable before version 4.0.0 of IridiumSkyblock as the required generatorSettings feature is not yet available.
@@ -8,7 +8,7 @@ This tutorial will guide you on how to create a boxed mini world survival using 
 
 # Step 1: Create a World with Multiverse
 Before installing IridiumSkyblock, create a world with Multiverse and name it IridiumSkyblock. You can use any world generator that supports Multiverse, such as TerraformGenerator. Example command:
-/mv create IridiumSkyblock normal -g TerraformGenerator
+/mv create IridiumSkyblock normal -g TerraformGenerator, it can also work without any generators. Example /mv create IridiumSkyblock normal
 
 # Step 2: Install and Modify the Plugin.yml File
 Install the IridiumSkyblock .jar file and make a few small changes to the plugin.yml file inside the jar using a tool like WinRAR. Modify the file to include the following soft dependencies:
