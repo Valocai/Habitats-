@@ -2,6 +2,6 @@
 defaultColor: "BLUE"
 enabled:
   BLUE: true
-  RED: true
-  GREEN: true
   "OFF": false
+  GREEN: true
+  RED: true

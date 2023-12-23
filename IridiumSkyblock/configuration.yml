@@ -8,11 +8,12 @@ spawnWorldName: "world"
 defaultCommandSyntax: "/ha %command%"
 islandLevelEquation: "abs(cbrt($1+1))"
 defaultIslandName: "%island_owner_name%'s Habitat"
-paster: "worldedit"
+paster: "fawe"
 enableCheckVersion: true
 defaultIslandPublic: true
 voidTeleport: true
-netherIslands: false
+netherIslands: true
+respectNetherRatio: false
 endIslands: false
 respawnOnIsland: true
 obsidianBucket: true
@@ -21,6 +22,7 @@ islandMenu: true
 backButtons: true
 createIslandOnHome: true
 putBackOnIslandLeave: false
+forceNetherGeneratorInNether: true
 regenSettings:
   moneyPrice: 0.0
   crystalPrice: 0
@@ -28,7 +30,7 @@ regenSettings:
   clearEnderChests: false
   resetIslandBank: false
   resetVaultBalances: false
-  resetUpgrades: true
+  resetUpgrades: false
   resetMissions: true
   resetBoosters: true
   clearWarps: true
@@ -64,13 +66,35 @@ pvpSettings:
   - "LAVA"
   - "CONTACT"
   - "FIRE_TICK"
+performance:
+  disableWaterCheck: false
+  disableIslandRecalculationTimer: false
+  disableGrowth: false
+  disablePiston: false
+  disableSpread: false
+  disableGenerator: false
+  disableEndermanCheck: false
+  disableEntitySpawnCheck: false
+  disableFurnaceCheck: false
+  disableSpawnerEntitySpawnCheck: false
+  disableEntityTargettingCheck: false
+  disableLeavesDecayCheck: false
+confirmation:
+  islandRegen: true
+  warpDeletion: true
+  clearData: true
+  islandDelete: true
+  islandLeave: true
 distance: 600
 islandRecalculateInterval: 5
 chunkPerTickRecalculation: 1
+tickPerRecalculationStep: 1
 maxIslandName: 16
 minIslandName: 3
 teleportDelay: 0
 trackTicks: 20
+pasterLimitPerTick: 250000
+pasterDelayInTick: 1
 islandCrystal:
   material: "NETHER_STAR"
   amount: 1
@@ -133,7 +157,7 @@ islandLevelRewards:
       slot: null
     commands: []
     islandExperience: 0
-    crystals: 5
+    crystals: 0
     money: 200.0
     experience: 0
     sound: "ENTITY_PLAYER_LEVELUP"

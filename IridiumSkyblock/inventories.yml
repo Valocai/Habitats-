@@ -1,6 +1,6 @@
 ---
 backButton:
-  material: "SPECTRAL_ARROW"
+  material: "AIR"
   amount: 1
   displayName: "&c&lBack"
   headData: null
@@ -133,7 +133,7 @@ islandBorder:
       slot: 15
 islandMenu:
   size: 45
-  title: "&7Island Menu"
+  title: "&f뀡"
   background:
     filler:
       material: "AIR"
@@ -186,15 +186,15 @@ islandMenu:
       lore:
       - "&7View your Habitat upgrades"
       slot: 1
-    is border:
-      material: "WHITE_DYE"
+    is settings:
+      material: "COMMAND_BLOCK"
       amount: 1
-      displayName: "&6&lHabitat Border"
+      displayName: "&6&lHabitat Settings"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7Change your Habitat border"
+      - "&7Configure your Habitat Settings"
       slot: 41
     is bank:
       material: "BUNDLE"
@@ -239,12 +239,12 @@ islandMenu:
     is visit:
       material: "RECOVERY_COMPASS"
       amount: 1
-      displayName: "&6&lVistit Habitat"
+      displayName: "&6&lVisit Habitat"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7Vistit other Habitats"
+      - "&7Visit other Habitats"
       slot: 31
     is invites:
       material: "BOOK"
@@ -259,7 +259,7 @@ islandMenu:
     is biome:
       material: "KELP"
       amount: 1
-      displayName: "&6&l Habitat Biome"
+      displayName: "&6&lHabitat Biome"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -365,7 +365,7 @@ missionSelectGUI:
     is missions once:
       material: "WRITABLE_BOOK"
       amount: 1
-      displayName: "&b&lQuests"
+      displayName: "&6&lQuests"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -374,7 +374,7 @@ missionSelectGUI:
     is missions daily:
       material: "DIAMOND_SWORD"
       amount: 1
-      displayName: "&b&lDaily Missions"
+      displayName: "&6&lDaily Missions"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -479,7 +479,7 @@ blockValueSelectGUI:
     is blockvalues block:
       material: "EMERALD_BLOCK"
       amount: 1
-      displayName: "&b&lValuable Blocks"
+      displayName: "&6&lValuable Blocks"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -488,7 +488,7 @@ blockValueSelectGUI:
     is blockvalues spawner:
       material: "SPAWNER"
       amount: 1
-      displayName: "&b&lValuable Spawners"
+      displayName: "&6&lValuable Spawners"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -496,7 +496,7 @@ blockValueSelectGUI:
       slot: 15
 visitGUI:
   size: 27
-  title: "&7Visit an Island"
+  title: "&f뀱"
   background:
     filler:
       material: "AIR"
@@ -511,7 +511,7 @@ visitGUI:
   item:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&l%island_name%"
+    displayName: "&6&l%island_name%"
     headData: null
     headOwner: "%island_owner%"
     headOwnerUUID: null
@@ -521,7 +521,7 @@ visitGUI:
     slot: null
 membersGUI:
   size: 27
-  title: "&7Island Members"
+  title: "&f뀱"
   background:
     filler:
       material: "AIR"
@@ -536,7 +536,7 @@ membersGUI:
   item:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&l%player_name%"
+    displayName: "&6&l%player_name%"
     headData: null
     headOwner: "%player_name%"
     headOwnerUUID: null
@@ -544,8 +544,8 @@ membersGUI:
     - "&7Joined: %player_join%"
     - "&7Rank: %player_rank%"
     - ""
-    - "&b&l[!] &7Right Click to promote"
-    - "&b&l[!] &7Left click to demote/kick"
+    - "&6&l[!] &7Right Click to promote"
+    - "&6&l[!] &7Left click to demote/kick"
     slot: 0
 bansGUI:
   size: 27
@@ -564,7 +564,7 @@ bansGUI:
   item:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&l%player_name%"
+    displayName: "&6&l%player_name%"
     headData: null
     headOwner: "%player_name%"
     headOwnerUUID: null
@@ -572,11 +572,11 @@ bansGUI:
     - "&7Banned time: %ban_time%"
     - "&7Banned by: %banned_by%"
     - ""
-    - "&b&l[!] &7Left Click to unban"
+    - "&6&l[!] &7Left Click to unban"
     slot: 0
 trustedGUI:
   size: 27
-  title: "&7Trusted Members"
+  title: "&f뀱"
   background:
     filler:
       material: "AIR"
@@ -591,7 +591,7 @@ trustedGUI:
   item:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&l%player_name%"
+    displayName: "&6&l%player_name%"
     headData: null
     headOwner: "%player_name%"
     headOwnerUUID: null
@@ -599,7 +599,7 @@ trustedGUI:
     - "&7Date: %player_join%"
     - "&7Trusted By: %trustee%"
     - ""
-    - "&b&l [!] &7Left click to untrust"
+    - "&6&l [!] &7Left click to untrust"
     slot: 0
 visitorsGUI:
   size: 27
@@ -618,15 +618,15 @@ visitorsGUI:
   item:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&l%player_name%"
+    displayName: "&6&l%player_name%"
     headData: null
     headOwner: "%player_name%"
     headOwnerUUID: null
     lore:
     - "&7Has Island: %has_island%"
     - ""
-    - "&b&l[!] &7Left Click to expel this visitor from your island"
-    - "&b&l[!] &7Right Click to ban this visitor from your island"
+    - "&6&l[!] &7Left Click to expel this visitor from your island"
+    - "&6&l[!] &7Right Click to ban this visitor from your island"
     slot: 0
 islandTopGUI:
   size: 27
@@ -645,24 +645,24 @@ islandTopGUI:
   item:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&lIsland Owner: &f%island_owner% &7(#%island_rank%)"
+    displayName: "&6&lIsland Owner: &f%island_owner% &7(#%island_rank%)"
     headData: null
     headOwner: "%island_owner%"
     headOwnerUUID: null
     lore:
     - ""
-    - "&b&l * &7Island Name: &b%island_name%"
-    - "&b&l * &7Island Rank: &b%island_rank%"
-    - "&b&l * &7Island Value: &b%island_value%"
-    - "&b&l * &7Netherite Blocks: &b%NETHERITE_BLOCK_AMOUNT%"
-    - "&b&l * &7Emerald Blocks: &b%EMERALD_BLOCK_AMOUNT%"
-    - "&b&l * &7Diamond Blocks: &b%DIAMOND_BLOCK_AMOUNT%"
-    - "&b&l * &7Gold Blocks: &b%GOLD_BLOCK_AMOUNT%"
-    - "&b&l * &7Iron Blocks: &b%IRON_BLOCK_AMOUNT%"
-    - "&b&l * &7Hopper Blocks: &b%HOPPER_AMOUNT%"
-    - "&b&l * &7Beacon Blocks: &b%BEACON_AMOUNT%"
+    - "&6&l * &7Island Name: &b%island_name%"
+    - "&6&l * &7Island Rank: &b%island_rank%"
+    - "&6&l * &7Island Value: &b%island_value%"
+    - "&6&l * &7Netherite Blocks: &b%NETHERITE_BLOCK_AMOUNT%"
+    - "&6&l * &7Emerald Blocks: &b%EMERALD_BLOCK_AMOUNT%"
+    - "&6&l * &7Diamond Blocks: &b%DIAMOND_BLOCK_AMOUNT%"
+    - "&6&l * &7Gold Blocks: &b%GOLD_BLOCK_AMOUNT%"
+    - "&6&l * &7Iron Blocks: &b%IRON_BLOCK_AMOUNT%"
+    - "&6&l * &7Hopper Blocks: &b%HOPPER_AMOUNT%"
+    - "&6&l * &7Beacon Blocks: &b%BEACON_AMOUNT%"
     - ""
-    - "&b&l[!] &bLeft Click to Teleport to this Island."
+    - "&6&l[!] &bLeft Click to Teleport to this Island."
     slot: null
   filler:
     material: "BARRIER"
@@ -675,7 +675,7 @@ islandTopGUI:
     slot: null
 confirmationGUI:
   size: 27
-  title: "&7Are you sure?"
+  title: "&f뀰"
   background:
     filler:
       material: "AIR"
@@ -788,7 +788,7 @@ confirmationGUI:
     slot: 11
 bankGUI:
   size: 27
-  title: "&7Island Bank"
+  title: "&f뀢"
   background:
     filler:
       material: "AIR"
@@ -979,93 +979,93 @@ logsGUI:
   IslandMembers:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&lIsland Members"
+    displayName: "&6&lIsland Members"
     headData: null
     headOwner: "%island_owner%"
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&6&l[!] &bLeft click to view Previous Page"
+    - "&6&l[!] &bRight click to view Next Page"
     slot: 10
   IslandTrusts:
     material: "EMERALD"
     amount: 1
-    displayName: "&b&lIsland Trusts"
+    displayName: "&6&lIsland Trusts"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&6&l[!] &bLeft click to view Previous Page"
+    - "&6&l[!] &bRight click to view Next Page"
     slot: 11
   IslandInvites:
     material: "LAPIS_LAZULI"
     amount: 1
-    displayName: "&b&lIsland Invites"
+    displayName: "&6&lIsland Invites"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&6&l[!] &bLeft click to view Previous Page"
+    - "&6&l[!] &bRight click to view Next Page"
     slot: 12
   IslandBank:
     material: "GOLD_INGOT"
     amount: 1
-    displayName: "&b&lIsland Bank"
+    displayName: "&6&lIsland Bank"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&6&l[!] &bLeft click to view Previous Page"
+    - "&6&l[!] &bRight click to view Next Page"
     slot: 13
   IslandBoosters:
     material: "EXPERIENCE_BOTTLE"
     amount: 1
-    displayName: "&b&lIsland Boosters"
+    displayName: "&6&lIsland Boosters"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&6&l[!] &bLeft click to view Previous Page"
+    - "&6&l[!] &bRight click to view Next Page"
     slot: 14
   IslandUpgrades:
     material: "BEACON"
     amount: 1
-    displayName: "&b&lIsland Upgrades"
+    displayName: "&6&lHabitat Upgrades"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&6&l[!] &bLeft click to view Previous Page"
+    - "&6&l[!] &bRight click to view Next Page"
     slot: 15
   IslandRewards:
     material: "DIAMOND"
     amount: 1
-    displayName: "&b&lIsland Rewards"
+    displayName: "&6&lIsland Rewards"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&6&l[!] &bLeft click to view Previous Page"
+    - "&6&l[!] &bRight click to view Next Page"
     slot: 16
   USER_JOINED: "&b%user% Joined (%days% days %hours% hours %minutes% minutes %seconds%\
     \ seconds ago)"
@@ -1097,7 +1097,7 @@ logsGUI:
     \ minutes %seconds% seconds ago)"
 upgradesGUI:
   size: 27
-  title: "&7Island Upgrades"
+  title: "&f뀢"
   background:
     filler:
       material: "AIR"
@@ -1192,7 +1192,7 @@ upgradesGUI:
         slot: null
 boostersGUI:
   size: 27
-  title: "&7Island Boosters"
+  title: "&f뀤"
   background:
     filler:
       material: "AIR"
@@ -1383,15 +1383,15 @@ warpsGUI:
   item:
     material: "GREEN_STAINED_GLASS_PANE"
     amount: 1
-    displayName: "&b&l%warp_name%"
+    displayName: "&6&l%warp_name%"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - "&7%description%"
     - ""
-    - "&b&l[!] &bLeft Click to Teleport"
-    - "&b&l[!] &bRight Click to Delete"
+    - "&6&l[!] &bLeft Click to Teleport"
+    - "&6&l[!] &bRight Click to Delete"
     slot: null
 blockValue:
   size: 27
@@ -1411,7 +1411,7 @@ blockValue:
   - "&bValue per block: &7%value%"
 islandInvitesGUI:
   size: 27
-  title: "&7Island Invites"
+  title: "&f뀱"
   background:
     filler:
       material: "AIR"
@@ -1426,7 +1426,7 @@ islandInvitesGUI:
   item:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&l%player_name%"
+    displayName: "&6&l%player_name%"
     headData: null
     headOwner: "%player_name%"
     headOwnerUUID: null
@@ -1434,7 +1434,7 @@ islandInvitesGUI:
     - "&7Invited By: %inviter%"
     - "&7Time: %time%"
     - ""
-    - "&b&l[!] &7Click to un-invite"
+    - "&6&l[!] &7Click to un-invite"
     slot: 0
 islandSchematicGUI:
   size: 27
@@ -1642,7 +1642,7 @@ missionsGUI:
     items: {}
 islandPermissionsGUI:
   size: 54
-  title: "&7Island Permissions"
+  title: "&f뀵"
   background:
     filler:
       material: "AIR"
@@ -1656,7 +1656,7 @@ islandPermissionsGUI:
     items: {}
 islandSettingsGUI:
   size: 36
-  title: "&7Island Settings"
+  title: "&f뀲"
   background:
     filler:
       material: "AIR"
@@ -1670,7 +1670,7 @@ islandSettingsGUI:
     items: {}
 islandRanksGUI:
   size: 27
-  title: "&7Island Permissions"
+  title: "&f뀴"
   background:
     filler:
       material: "AIR"
@@ -1685,7 +1685,7 @@ islandRanksGUI:
   owner:
     material: "NETHERITE_INGOT"
     amount: 1
-    displayName: "&b&lOwner"
+    displayName: "&6&lOwner"
     headData: null
     headOwner: null
     headOwnerUUID: null
@@ -1695,7 +1695,7 @@ islandRanksGUI:
   coOwner:
     material: "NETHERITE_SCRAP"
     amount: 1
-    displayName: "&b&lCo-Owner"
+    displayName: "&6&lCo-Owner"
     headData: null
     headOwner: null
     headOwnerUUID: null
@@ -1705,7 +1705,7 @@ islandRanksGUI:
   moderator:
     material: "GOLD_INGOT"
     amount: 1
-    displayName: "&b&lModerator"
+    displayName: "&6&lModerator"
     headData: null
     headOwner: null
     headOwnerUUID: null
@@ -1715,7 +1715,7 @@ islandRanksGUI:
   member:
     material: "COPPER_INGOT"
     amount: 1
-    displayName: "&b&lMember"
+    displayName: "&6&lMember"
     headData: null
     headOwner: null
     headOwnerUUID: null
@@ -1725,7 +1725,7 @@ islandRanksGUI:
   visitor:
     material: "IRON_INGOT"
     amount: 1
-    displayName: "&b&lVisitor"
+    displayName: "&6&lVisitor"
     headData: null
     headOwner: null
     headOwnerUUID: null
@@ -1733,7 +1733,7 @@ islandRanksGUI:
     slot: 15
 biomeGUI:
   size: 45
-  title: "&7Island Biomes"
+  title: "&f뀳"
   background:
     filler:
       material: "AIR"
@@ -1748,12 +1748,12 @@ biomeGUI:
   item:
     material: "GRASS_BLOCK"
     amount: 1
-    displayName: "&b&l%biome%"
+    displayName: "&6&l%biome%"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Click to change your island biome!"
+    - "&7Click to change your Habitat biome!"
     slot: null
 islandReward:
   size: 45
@@ -1770,7 +1770,7 @@ islandReward:
       slot: null
     items: {}
 nextPage:
-  material: "ARROW"
+  material: "AIR"
   amount: 1
   displayName: "&a&lNext Page"
   headData: null
@@ -1779,7 +1779,7 @@ nextPage:
   lore: []
   slot: null
 previousPage:
-  material: "SPECTRAL_ARROW"
+  material: "AIR"
   amount: 1
   displayName: "&c&lPrevious Page"
   headData: null

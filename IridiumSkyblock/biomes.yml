@@ -1,0 +1,171 @@
+---
+categories:
+  Overworld:
+    item:
+      material: "GRASS_BLOCK"
+      amount: 1
+      displayName: "&9&lOverworld"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 11
+    inventoryRows: 6
+  Nether:
+    item:
+      material: "NETHERRACK"
+      amount: 1
+      displayName: "&9&lNether"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 13
+    inventoryRows: 6
+  End:
+    item:
+      material: "END_STONE"
+      amount: 1
+      displayName: "&9&lEnd"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 15
+    inventoryRows: 6
+biomes:
+  Overworld:
+  - name: "&9&lPlains"
+    displayName: ""
+    biome: "PLAINS"
+    item: "GRASS_BLOCK"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 1
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  - name: "&9&lForest"
+    displayName: ""
+    biome: "FOREST"
+    item: "OAK_SAPLING"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 4
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  - name: "&9&lSnowy Taiga"
+    displayName: ""
+    biome: "SNOWY_TAIGA"
+    item: "SPRUCE_WOOD"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 7
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  Nether:
+  - name: "&9&lNether Wastes"
+    displayName: ""
+    biome: "NETHER_WASTES"
+    item: "NETHERRACK"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 1
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  - name: "&9&lCrimson Forest"
+    displayName: ""
+    biome: "CRIMSON_FOREST"
+    item: "CRIMSON_NYLIUM"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 4
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  - name: "&9&lWarped Forest"
+    displayName: ""
+    biome: "WARPED_FOREST"
+    item: "WARPED_NYLIUM"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 7
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  End:
+  - name: "&9&lThe End"
+    displayName: ""
+    biome: "THE_END"
+    item: "END_CRYSTAL"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 1
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  - name: "&9&lEnd Barrens"
+    displayName: ""
+    biome: "END_BARRENS"
+    item: "END_STONE"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 4
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+  - name: "&9&lEnd Highlands"
+    displayName: ""
+    biome: "END_HIGHLANDS"
+    item: "CHORUS_FRUIT"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 7
+    buyCost:
+      vault: 1000.0
+      crystals: 15
+failSound: "BLOCK_ANVIL_LAND"
+successSound: "ENTITY_PLAYER_LEVELUP"
+overviewBackground:
+  filler:
+    material: "BLACK_STAINED_GLASS_PANE"
+    amount: 1
+    displayName: " "
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore: []
+    slot: null
+  items: {}
+categoryBackground:
+  filler:
+    material: "BLACK_STAINED_GLASS_PANE"
+    amount: 1
+    displayName: " "
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore: []
+    slot: null
+  items: {}
+biomeItemLore:
+- " "
+- "&b&l[!] &bLeft-Click to Purchase"
+overviewTitle: "&7Island Biome Shop"
+categoryTitle: "&7Island Biome Shop | %biomecategory_name%"
+buyPriceLore: "&aBuy Price: β%buy_price_vault%, %buy_price_crystals% Crystals"
+notPurchasableLore: "&cThis biome cannot be purchased!"
+abbreviatePrices: true
+overviewSize: 27

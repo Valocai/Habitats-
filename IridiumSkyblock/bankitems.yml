@@ -24,29 +24,29 @@ experienceBankItem:
   item:
     material: "EXPERIENCE_BOTTLE"
     amount: 1
-    displayName: "&b&lIsland Experience"
+    displayName: "&6&lHabitat Experience"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - "&7%amount% Experience"
-    - "&b&l[!] &bLeft click to withdraw"
-    - "&b&l[!] &bRight click to deposit"
+    - "&6&l[!] &6Left click to withdraw"
+    - "&6&l[!] &6Right click to deposit"
     slot: 15
 moneyBankItem:
   name: "money"
-  displayName: "Money"
-  defaultAmount: 1000.0
+  displayName: "Pearls"
+  defaultAmount: 20.0
   enabled: true
   item:
     material: "PAPER"
     amount: 1
-    displayName: "&b&lIsland Money"
+    displayName: "&6&lBanana Pearls"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7$%amount%"
-    - "&b&l[!] &bLeft click to withdraw"
-    - "&b&l[!] &bRight click to deposit"
+    - "&7β%amount%"
+    - "&6&l[!] &6Left click to withdraw"
+    - "&6&l[!] &6Right click to deposit"
     slot: 11
