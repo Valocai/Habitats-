@@ -28,6 +28,7 @@ This will trigger the bug and allow us to use any world generator with Multivers
 
 # Step 3: Configure the GeneratorSettings in Configuration.yml
 In the configuration.yml file, set the generatorSettings to the following:
+```
 generatorSettings:
 generatorType: "OCEAN"
 waterHeight: 0
@@ -35,7 +36,7 @@ minOceanFloorLevel: 0
 maxOceanFloorLevel: 0
 oceanFloorBottomMaterial: "AIR"
 oceanFloorTopMaterial: "AIR"
-
+```
 Create a schematic file with WorldEdit that only contains AIR blocks. This will be the schematic for your island.
 
 # Step 4: Generate Your Island
