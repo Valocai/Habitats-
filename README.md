@@ -13,15 +13,16 @@ Before installing IridiumSkyblock, create a world with Multiverse and name it Ir
 # Step 2: Install and Modify the Plugin.yml File
 Install the IridiumSkyblock .jar file and make a few small changes to the plugin.yml file inside the jar using a tool like WinRAR. Modify the file to include the following soft dependencies:
 
-MVdWPlaceholderAPI
-PlaceholderAPI
-Essentials
-EssentialsSpawn
-RoseStacker
-WorldEdit
-Multiverse-Core
-Additionally, add the following line to loadbefore:
-- "Multiverse-Core"
+  - "MVdWPlaceholderAPI"
+  - "PlaceholderAPI"
+  - "Essentials"
+  - "EssentialsSpawn"
+  - "RoseStacker"
+  - "WorldEdit"
+  - "Multiverse-Core"
+loadbefore:
+#  - "Multiverse-Core"
+
 
 This will trigger the bug and allow us to use any world generator with Multiverse while giving Multiverse priority.
 
